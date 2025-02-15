@@ -1,0 +1,11 @@
+[package]
+name = "chip8-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.29", features = ["derive"] }
+pixels = "0.15.0"
+rand = "0.9.0"
+rodio = "0.20.1"
+winit = "0.30.9"
